@@ -1,0 +1,12 @@
+{
+  "name": "canary-rollout",
+  "version": "0.1.0",
+  "description": "Day 5: a small model of rolling out a bad update, all at once vs canary. No dependencies.",
+  "main": "rollout.js",
+  "scripts": {
+    "test": "node test.js",
+    "simulate": "node simulate.js"
+  },
+  "author": "xskriptx",
+  "license": "MIT"
+}

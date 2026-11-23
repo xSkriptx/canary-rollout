@@ -1,0 +1,30 @@
+{
+  "users": 1000000,
+  "detect_min": 10,
+  "rows": [
+    {
+      "symptom_min": 5,
+      "results": {
+        "all at once": 1000000,
+        "canary (30 min per stage)": 10000,
+        "canary (90 min per stage)": 10000
+      }
+    },
+    {
+      "symptom_min": 25,
+      "results": {
+        "all at once": 1000000,
+        "canary (30 min per stage)": 100000,
+        "canary (90 min per stage)": 10000
+      }
+    },
+    {
+      "symptom_min": 60,
+      "results": {
+        "all at once": 1000000,
+        "canary (30 min per stage)": 500000,
+        "canary (90 min per stage)": 10000
+      }
+    }
+  ]
+}
